@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* Horizontally center the content */
+  align-items: center;      /* Vertically center the content */
+  height: 100vh;            /* Take the full height of the viewport */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Add margin between buttons */
+button + button {
+  margin-left: 10px; /* Adds space between buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Container for form creation */
+.form-container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.input-list li {
+  margin-bottom: 10px;
+}
+
+.input-list button {
+  margin-top: 10px;
+}
+
+/* Form list page */
+.form-list-container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-list-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-list-container li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form-list-container button {
+  background-color: #e74c3c;
+  margin-left: 10px;
+}
+
+.form-list-container button:hover {
+  background-color: #c0392b;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
